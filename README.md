@@ -2,9 +2,10 @@
 Management packs for SCOM to support RHEL 8
 
 SCOM 2016:
+
 Prerequisites:
 - All standard SCOM 2016 UNIX/Linux prerequisities apply including:
-  - Firewall ports (https://docs.microsoft.com/en-us/system-center/scom/plan-security-config-firewall?view=sc-om-2016), namely ICMP ping, TCP port 22 (SSH) and TCP port 1270 from SCOM Management server to the UNIX/Linux server.
+  - Firewall ports (https://docs.microsoft.com/en-us/system-center/scom/plan-security-config-firewall?view=sc-om-2016), namely ICMP ping, TCP port 22 (SSH) and TCP port 1270 from all servers in the UNIX/Linux Management Server Resource Pool to the target UNIX/Linux servers.
   - Configuration of SCOM UNIX/Linux accounts (https://kevinholman.com/2016/11/11/monitoring-unix-linux-with-opsmgr-2016/)
   - Local UNIX/Linux monitoring account creation including sudo configuration (https://social.technet.microsoft.com/wiki/contents/articles/7375.scom-configuring-sudo-elevation-for-unix-and-linux-monitoring.aspx#D)
 - The latest System Center Management Pack for UNIX and Linux Operating Systems is required (https://www.microsoft.com/en-au/download/details.aspx?id=29696).
